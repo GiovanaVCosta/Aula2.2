@@ -49,6 +49,9 @@
     transition-duration: 2s, 2s, 2s, 3s;
 }
 .pular{
-    animation-name: bounce;
+    transform: scale(2.1);
+    background-color: plum;
 }
-
+.movimentar{
+    transform: scale(0.5) translate(-100%, -100%);    
+}
