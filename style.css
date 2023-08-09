@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+}
+.item{
+    height: 100px;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 16px;
+}
+.texto{
+    color: white;
+    font-size: 64px;
+
+}
+.forma{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: pink;
+    cursor: pointer;
+}
+.amarelo{
+    background-color: yellow;
+}
+.circulo{
+    border-radius: 50%;
+}
+.sumir{
+    opacity: 0;
+    background-color: gray;
+}
+.lugar{
+    transform: translate(-2.1rem, -2ex);
+}
+.rodar{
+    transform: rotate(360deg);
+    transition-duration: 2s, 2s, 2s, 3s;
+}
+.pular{
+    animation-name: bounce;
+}
+
